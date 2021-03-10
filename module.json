@@ -1,6 +1,7 @@
 {
   "name": "Example Module",
   "author": "ZedTek",
+  "commandPrefix": "example",
   "info-file": "https://raw.githubusercontent.com/ZedTek-Official/toggle-example-module/main/config.json",
   "commands": {
     "ping": "https://zedtek-official.github.io/toggle-example-module/ping.js"
