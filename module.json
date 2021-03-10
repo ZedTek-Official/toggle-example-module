@@ -1,0 +1,7 @@
+{
+  "name": "Example Module",
+  "author": "ZedTek",
+  "commands": {
+    "ping": "https://zedtek-official.github.io/toggle-example-module/ping.js"
+  }
+}
