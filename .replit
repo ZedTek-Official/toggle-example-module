@@ -1,0 +1,2 @@
+language = "bash"
+run = "git add . && git commit -m \"auto push from replit\" && git push"
