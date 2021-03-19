@@ -4,7 +4,7 @@
   "commandPrefix": "example",
   "infoFile": {
     "config": "https://raw.githubusercontent.com/ZedTek/toggle-example-module/main/config.json"
-  }
+  },
   "commands": {
     "ping": "https://raw.githubusercontent.com/ZedTek/toggle-example-module/main/ping.js"
   }
