@@ -1,0 +1,11 @@
+{
+    "name": "YouTube Upload Notifications Module",
+    "author": "ZedTek",
+    "commandPrefix": "ytnotif",
+    "commands": {
+        "fetch": "https://raw.githubusercontent.com/ZedTek/zedtek-modules/YouTube%20Upload%20Notifications/fetch.js"
+    },
+    "infoFile": {
+        "config": "https://raw.githubusercontent.com/ZedTek/zedtek-modules/YouTube%20Upload%20Notifications/config.json"
+    }
+}
