@@ -6,7 +6,7 @@ module.exports = {
 		const exampleEmbed = new Discord.MessageEmbed()
             .setColor('#ffffff')
             .setTitle('PAW AE')
-            .setAuthor('PAW Motors', 'https://i.imgur.com/bbexXJF.png')
+            .setAuthor('PAW Tech', 'https://i.imgur.com/bbexXJF.png')
             .setThumbnail(config.images.ae)
             .addFields(
                 { name: 'Vehicle Type:', value: 'Hybrid', inline: true },

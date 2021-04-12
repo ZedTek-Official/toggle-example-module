@@ -6,7 +6,7 @@ module.exports = {
 		const exampleEmbed = new Discord.MessageEmbed()
             .setColor('#ffffff')
             .setTitle('PAW CX')
-            .setAuthor('PAW Motors', 'https://i.imgur.com/bbexXJF.png')
+            .setAuthor('PAW Tech', 'https://i.imgur.com/bbexXJF.png')
             .setThumbnail(config.images.cx)
             .addFields(
                 { name: 'Vehicle Type:', value: 'Electric', inline: true },

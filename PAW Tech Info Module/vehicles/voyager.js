@@ -6,7 +6,7 @@ module.exports = {
 		const exampleEmbed = new Discord.MessageEmbed()
             .setColor('#ffffff')
             .setTitle('PAW Voyager')
-            .setAuthor('PAW Motors', 'https://i.imgur.com/bbexXJF.png')
+            .setAuthor('PAW Tech', 'https://i.imgur.com/bbexXJF.png')
             .setThumbnail(config.images.voyager)
             .addFields(
                 { name: 'Vehicle Type:', value: 'Electric', inline: true },
@@ -21,7 +21,7 @@ module.exports = {
                 { name: 'Weight (lb):', value: '31436.145', inline: true},
 		        { name: 'Release Date', value: '8/25/2020', inline: true}
             )
-            .setFooter('PAW Voyager - Generation 4 - Stats', 'https://i.imgur.com/bbexXJF.png');
+            .setFooter('PAW Voyager (previously VX) - Generation 4 - Stats', 'https://i.imgur.com/bbexXJF.png');
         
         message.channel.send(exampleEmbed);
 	},

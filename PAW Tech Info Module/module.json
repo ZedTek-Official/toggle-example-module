@@ -18,7 +18,6 @@
     "vehicle-tx_max": "https://raw.githubusercontent.com/ZedTek/zedtek-modules/main/PAW%20Tech%20Info%20Module/vehicles/tx_max.js",
     "vehicle-voyager": "https://raw.githubusercontent.com/ZedTek/zedtek-modules/main/PAW%20Tech%20Info%20Module/vehicles/voyager.js",
     "vehicle-voyager_max": "https://raw.githubusercontent.com/ZedTek/zedtek-modules/main/PAW%20Tech%20Info%20Module/vehicles/voyager_max.js",
-    "vehicle-vxxl": "https://raw.githubusercontent.com/ZedTek/zedtek-modules/main/PAW%20Tech%20Info%20Module/vehicles/vxxl.js",
-    "caros": "https://raw.githubusercontent.com/ZedTek/zedtek-modules/main/PAW%20Tech%20Info%20Module/carosInfo.js"
+    "vehicle-vxxl": "https://raw.githubusercontent.com/ZedTek/zedtek-modules/main/PAW%20Tech%20Info%20Module/vehicles/vxxl.js"
   }
 }

@@ -1,13 +1,13 @@
 const Discord = require('discord.js');
 const config = require('./config.json');
 module.exports = {
-    name: 'vxl',
+    name: 'voyager_max',
 	execute(message, args) {
 		const exampleEmbed = new Discord.MessageEmbed()
             .setColor('#ffffff')
             .setTitle('PAW Voyager Max')
-            .setAuthor('PAW Motors', 'https://i.imgur.com/bbexXJF.png')
-            .setThumbnail(config.images.vxl)
+            .setAuthor('PAW Tech', 'https://i.imgur.com/bbexXJF.png')
+            .setThumbnail(config.images.voyager_max)
             .addFields(
                 { name: 'Vehicle Type:', value: 'Electric', inline: true },
                 { name: 'Current Generation:', value: 'Generation 4', inline: true },
@@ -21,7 +21,7 @@ module.exports = {
                 { name: 'Weight (lb):', value: '31053.555', inline: true},
 		        { name: 'Release Date', value: '10/18/2020', inline: true}
             )
-            .setFooter('PAW Voyager Max - Generation 4 - Stats', 'https://i.imgur.com/bbexXJF.png')
+            .setFooter('PAW Voyager Max (previously VXL) - Generation 4 - Stats', 'https://i.imgur.com/bbexXJF.png')
         
         message.channel.send(exampleEmbed);
 	},
