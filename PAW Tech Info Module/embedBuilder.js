@@ -26,6 +26,6 @@ function vehicleInfo(car){
 		        { name: 'Release Date', value: config.vehicles.ae.releaseDate, inline: true}
             )
             .setFooter(`PAW AE - Generation ${config.vehicles.ae.currentGen} - Stats`, config.pawLogo);
-        message.channel.send(embed);
+        return embed;
     }
 }

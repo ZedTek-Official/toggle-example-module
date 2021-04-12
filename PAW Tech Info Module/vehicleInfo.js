@@ -4,7 +4,7 @@ module.exports = {
     name: 'vehicle',
     execute(message, args){
         if (args[1] === 'ae'){
-            vehicleInfo('ae');
+            message.channel.send(vehicleInfo('ae'));
         }
         if (args[1] === 'ax'){
             vehicleInfo('ax');
