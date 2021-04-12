@@ -1,0 +1,13 @@
+{
+  "name": "PAW Tech Info Module",
+  "author": "ZedTek",
+  "commandPrefix": "pawinfo",
+  "infoFile": {
+    "config": "https://raw.githubusercontent.com/ZedTek/zedtek-modules/main/PAW%20Tech%20Info%20Module/config.json"
+  },
+  "commands": {
+    "vehicle": "https://raw.githubusercontent.com/ZedTek/zedtek-modules/main/PAW%20Tech%20Info%20Module/vehicleInfo.js",
+    "caros": "https://raw.githubusercontent.com/ZedTek/zedtek-modules/main/PAW%20Tech%20Info%20Module/carosInfo.js",
+    "embedBuilder": "https://raw.githubusercontent.com/ZedTek/zedtek-modules/main/PAW%20Tech%20Info%20Module/embedBuilder.js"
+  }
+}
