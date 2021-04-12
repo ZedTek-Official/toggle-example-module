@@ -3,7 +3,7 @@ const config = require('./config.json');
 const global = require('../../../global.json');
 const prefix = global.prefix;
 
-module.exports = { vehicleInfo, carOSInfo }
+module.exports = { vehicleInfo }
 
 function vehicleInfo(car){
     if (car === 'ae'){
