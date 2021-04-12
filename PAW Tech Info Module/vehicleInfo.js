@@ -3,43 +3,43 @@ const { vehicleInfo } = require('./embedBuilder.js')
 module.exports = {
     name: 'vehicle',
     execute(message, args){
-        if (args[0].toLowerCase() === 'ae'){
+        if (args[1].toLowerCase() === 'ae'){
             vehicleInfo('ae');
         }
-        if (args[0].toLowerCase() === 'ax'){
+        if (args[1].toLowerCase() === 'ax'){
             vehicleInfo('ax');
         }
-        if (args[0].toLowerCase() === 'cx'){
+        if (args[1].toLowerCase() === 'cx'){
             vehicleInfo('cx');
         }
-        if (args[0].toLowerCase() === 'lx'){
+        if (args[1].toLowerCase() === 'lx'){
             vehicleInfo('lx');
         }
-        if (args[0].toLowerCase() === 'ox'){
+        if (args[1].toLowerCase() === 'ox'){
             vehicleInfo('ox');
         }
-        if (args[0].toLowerCase() === 'scorpio_x'){
+        if (args[1].toLowerCase() === 'scorpio_x'){
             vehicleInfo('scorpio_x');
         }
-        if (args[0].toLowerCase() === 'sx'){
+        if (args[1].toLowerCase() === 'sx'){
             vehicleInfo('sx');
         }
-        if (args[0].toLowerCase() === 'tx'){
+        if (args[1].toLowerCase() === 'tx'){
             vehicleInfo('tx');
         }
-        if (args[0].toLowerCase() === 'txl'){
+        if (args[1].toLowerCase() === 'txl'){
             vehicleInfo('txl');
         }
-        if (args[0].toLowerCase() === 'tx_max'){
+        if (args[1].toLowerCase() === 'tx_max'){
             vehicleInfo('tx_max');
         }
-        if (args[0].toLowerCase() === 'vx'){
+        if (args[1].toLowerCase() === 'vx'){
             vehicleInfo('vx');
         }
-        if (args[0].toLowerCase() === 'vxl'){
+        if (args[1].toLowerCase() === 'vxl'){
             vehicleInfo('vxl');
         }
-        if (args[0].toLowerCase() === 'vxxl'){
+        if (args[1].toLowerCase() === 'vxxl'){
             vehicleInfo('vxxl');
         }
     } 
