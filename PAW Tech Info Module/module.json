@@ -18,6 +18,14 @@
     "vehicle-tx_max": "https://raw.githubusercontent.com/ZedTek/zedtek-modules/main/PAW%20Tech%20Info%20Module/vehicles/tx_max.js",
     "vehicle-voyager": "https://raw.githubusercontent.com/ZedTek/zedtek-modules/main/PAW%20Tech%20Info%20Module/vehicles/voyager.js",
     "vehicle-voyager_max": "https://raw.githubusercontent.com/ZedTek/zedtek-modules/main/PAW%20Tech%20Info%20Module/vehicles/voyager_max.js",
-    "vehicle-vxxl": "https://raw.githubusercontent.com/ZedTek/zedtek-modules/main/PAW%20Tech%20Info%20Module/vehicles/vxxl.js"
+    "vehicle-vxxl": "https://raw.githubusercontent.com/ZedTek/zedtek-modules/main/PAW%20Tech%20Info%20Module/vehicles/vxxl.js",
+    "caros-1": "https://raw.githubusercontent.com/ZedTek/zedtek-modules/main/PAW%20Tech%20Info%20Module/caros/1.js",
+    "caros-2": "https://raw.githubusercontent.com/ZedTek/zedtek-modules/main/PAW%20Tech%20Info%20Module/caros/2.js",
+    "caros-3": "https://raw.githubusercontent.com/ZedTek/zedtek-modules/main/PAW%20Tech%20Info%20Module/caros/3.js",
+    "caros-3.0.1": "https://raw.githubusercontent.com/ZedTek/zedtek-modules/main/PAW%20Tech%20Info%20Module/caros/3.0.1.js",
+    "caros-3.0.2": "https://raw.githubusercontent.com/ZedTek/zedtek-modules/main/PAW%20Tech%20Info%20Module/caros/1.js",
+    "caros-4": "https://raw.githubusercontent.com/ZedTek/zedtek-modules/main/PAW%20Tech%20Info%20Module/caros/4.js",
+    "caros-4.0.1": "https://raw.githubusercontent.com/ZedTek/zedtek-modules/main/PAW%20Tech%20Info%20Module/caros/4.0.1.js",
+    "caros-4.1": "https://raw.githubusercontent.com/ZedTek/zedtek-modules/main/PAW%20Tech%20Info%20Module/caros/4.1.js"
   }
 }
