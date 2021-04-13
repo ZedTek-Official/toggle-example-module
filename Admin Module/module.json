@@ -3,6 +3,12 @@
     "author": "ZedTek",
     "infoFile": "//raw.githubusercontent.com/ZedTek/zedtek-modules/main/Admin%20MOdule/config.json",
     "commands": {
-        "prune": "https://raw.githubusercontent.com/ZedTek/zedtek-modules/main/Admin%20MOdule/commands/prune.js"
+        "ban": "//raw.githubusercontent.com/ZedTek/zedtek-modules/main/Admin%20MOdule/commands/ban.js",
+        "getEmojiIDS": "//raw.githubusercontent.com/ZedTek/zedtek-modules/main/Admin%20MOdule/commands/getEmojiIDs.js",
+        "kick": "//raw.githubusercontent.com/ZedTek/zedtek-modules/main/Admin%20MOdule/commands/kick.js",
+        "mute": "//raw.githubusercontent.com/ZedTek/zedtek-modules/main/Admin%20MOdule/commands/mute.js",
+        "prune": "https://raw.githubusercontent.com/ZedTek/zedtek-modules/main/Admin%20MOdule/commands/prune.js",
+        "unmute": "//raw.githubusercontent.com/ZedTek/zedtek-modules/main/Admin%20MOdule/commands/unmute.js",
+        "warn": "//raw.githubusercontent.com/ZedTek/zedtek-modules/main/Admin%20MOdule/commands/warn.js"
     }
 }

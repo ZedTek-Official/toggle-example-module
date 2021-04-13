@@ -10,6 +10,5 @@ module.exports = {
         else{
             message.channel.send('That user wasn\'t muted in the first place, silly goose.');
         }
-		
 	},
 };
