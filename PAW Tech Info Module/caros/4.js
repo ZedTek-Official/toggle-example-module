@@ -1,6 +1,6 @@
 const Discord = require('discord.js');
 module.exports = {
-    name: '4',
+    name: 'caros-4',
 	execute(message, args) {
 		const exampleEmbed = new Discord.MessageEmbed()
             .setColor('#ffffff')

@@ -1,7 +1,7 @@
 const Discord = require('discord.js');
 const config = require('./config.json');
 module.exports = {
-    name: 'voyager_max',
+    name: 'vehicle-voyager_max',
 	execute(message, args) {
 		const exampleEmbed = new Discord.MessageEmbed()
             .setColor('#ffffff')
