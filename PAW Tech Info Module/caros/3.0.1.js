@@ -5,7 +5,7 @@ module.exports = {
 		const exampleEmbed = new Discord.MessageEmbed()
             .setColor('#ffffff')
             .setTitle('PAW CarOS - Version 3.0.1')
-            .setAuthor('PAW Motors', 'https://i.imgur.com/bbexXJF.png')
+            .setAuthor('PAW Tech', 'https://i.imgur.com/bbexXJF.png')
             .setDescription('Features in this version:')
             .addFields(
                 { name: `App Icons:`, value: `no` },
