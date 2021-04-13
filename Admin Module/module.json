@@ -1,0 +1,8 @@
+{
+    "name": "Admin Module",
+    "author": "ZedTek",
+    "infoFile": "//raw.githubusercontent.com/ZedTek/zedtek-modules/main/Admin%20MOdule/config.json",
+    "commands": {
+        "prune": "https://raw.githubusercontent.com/ZedTek/zedtek-modules/main/Admin%20MOdule/commands/prune.js"
+    }
+}

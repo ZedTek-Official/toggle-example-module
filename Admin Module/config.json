@@ -1,0 +1,9 @@
+{
+    "commandPrefix": "admin",
+    "administrators": {
+        "admin1": "ADMIN_ID",
+        "admin2": "ADMIN_ID"
+    },
+    "adminBotOutputChannel": "CHANNEL_ID",
+    "adminPingRole": "ROLE_ID"
+}
