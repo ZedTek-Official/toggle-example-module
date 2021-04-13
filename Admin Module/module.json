@@ -1,14 +1,17 @@
 {
     "name": "Admin Module",
     "author": "ZedTek",
-    "infoFile": "//raw.githubusercontent.com/ZedTek/zedtek-modules/main/Admin%20MOdule/config.json",
+    "commandPrefix": "admin",
+    "infoFile": {
+        "config": "https://raw.githubusercontent.com/ZedTek/zedtek-modules/main/Admin%20Module/config.json"
+    },
     "commands": {
-        "ban": "//raw.githubusercontent.com/ZedTek/zedtek-modules/main/Admin%20MOdule/commands/ban.js",
-        "getEmojiIDS": "//raw.githubusercontent.com/ZedTek/zedtek-modules/main/Admin%20MOdule/commands/getEmojiIDs.js",
-        "kick": "//raw.githubusercontent.com/ZedTek/zedtek-modules/main/Admin%20MOdule/commands/kick.js",
-        "mute": "//raw.githubusercontent.com/ZedTek/zedtek-modules/main/Admin%20MOdule/commands/mute.js",
-        "prune": "https://raw.githubusercontent.com/ZedTek/zedtek-modules/main/Admin%20MOdule/commands/prune.js",
-        "unmute": "//raw.githubusercontent.com/ZedTek/zedtek-modules/main/Admin%20MOdule/commands/unmute.js",
-        "warn": "//raw.githubusercontent.com/ZedTek/zedtek-modules/main/Admin%20MOdule/commands/warn.js"
+        "ban": "https://raw.githubusercontent.com/ZedTek/zedtek-modules/main/Admin%20Module/commands/ban.js",
+        "get_emoji_ids": "https://raw.githubusercontent.com/ZedTek/zedtek-modules/main/Admin%20Module/commands/getEmojiIDs.js",
+        "kick": "https://raw.githubusercontent.com/ZedTek/zedtek-modules/main/Admin%20Module/commands/kick.js",
+        "mute": "https://raw.githubusercontent.com/ZedTek/zedtek-modules/main/Admin%20Module/commands/mute.js",
+        "prune": "https://raw.githubusercontent.com/ZedTek/zedtek-modules/main/Admin%20Module/commands/prune.js",
+        "unmute": "https://raw.githubusercontent.com/ZedTek/zedtek-modules/main/Admin%20Module/commands/unmute.js",
+        "warn": "https://raw.githubusercontent.com/ZedTek/zedtek-modules/main/Admin%20Module/commands/warn.js"
     }
 }

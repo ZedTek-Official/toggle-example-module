@@ -1,5 +1,5 @@
 module.exports = {
-	name: 'getEmojiIDs',
+	name: 'get_emoji_ids',
 	execute(message) {
 		const emojiList = message.guild.emojis.cache.map((e, x) => (x + ' = ' + e + '| Name: ' + e.name)).join('\n');
         try {
