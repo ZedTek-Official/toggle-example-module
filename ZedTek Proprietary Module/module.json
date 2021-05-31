@@ -1,0 +1,8 @@
+{
+  "name": "ZedTek",
+  "author": "ZedTek",
+  "commandPrefix": "zedtek",
+  "commands": {
+    "rules": "https://raw.githubusercontent.com/ZedTek/zedtek-modules/main/ZedTek%20Proprietary%20Module/commands/rules.js"
+  }
+}

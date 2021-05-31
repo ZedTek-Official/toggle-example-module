@@ -1,8 +1,9 @@
+const config = require('./config.json');
 module.exports = {
 	name: 'mute',
 	execute(message, args) {
         const mentionedUser = message.mentions.members.first();
-        const muted = '808377222884753459';
+        const muted = config.muteRole;
         if (!mentionedUser.roles.cache.has(muted)){
             mentionedUser.roles.add(muted);
             message.channel.send(`${mentionedUser} was muted.`);

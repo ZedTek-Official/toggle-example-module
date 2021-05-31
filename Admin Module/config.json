@@ -5,5 +5,12 @@
         "admin2": "ADMIN_ID"
     },
     "adminBotOutputChannel": "CHANNEL_ID",
-    "adminPingRole": "ROLE_ID"
+    "adminPingRole": "ROLE_ID",
+    "warnRoles": {
+        "warning1": "ROLE_ID",
+        "warning2": "ROLE_ID",
+        "warning3": "ROLE_ID"
+    },
+    "muteRole": "ROLE_ID",
+    "beenMutedRole": "ROLE_ID"
 }

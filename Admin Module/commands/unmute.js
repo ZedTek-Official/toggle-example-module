@@ -1,8 +1,9 @@
+const config = require('./config.json');
 module.exports = {
 	name: 'unmute',
 	execute(message, args) {
         const mentionedUser = message.mentions.members.first();
-        const muted = '808377222884753459';
+        const muted = config.muteRole;
         if (mentionedUser.roles.cache.has(muted)){
             mentionedUser.roles.remove(muted);
             message.channel.send(`${mentionedUser} was unmuted.`);
