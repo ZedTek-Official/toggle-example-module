@@ -25,7 +25,7 @@ const rulesNotice = new Discord.MessageEmbed()
   
 module.exports = {
   name: 'rules',
-  execute: {
+  execute: ((message) => {
     message.channel.send(rule1, rule2, rule3, rule4, rule5, rule6, rule7, rulesNotice)
-  }
+  })
 }
