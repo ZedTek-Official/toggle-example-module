@@ -1,3 +1,5 @@
+const Discord = require('discord.js')
+
 const rule1 = new Discord.MessageEmbed()
   .setTitle('Rule 1')
   .addField('Be a decent human.', 'Treat everyone with respect. Absolutely no harassment, witch hunting, sexism, racism, homophobia, transphobia, or hate speech will be tolerated. This is not negotiable.')
@@ -25,7 +27,7 @@ const rulesNotice = new Discord.MessageEmbed()
   
 module.exports = {
   name: 'rules',
-  execute: ((message) => {
+  execute(message) {
     message.channel.send(rule1, rule2, rule3, rule4, rule5, rule6, rule7, rulesNotice)
   })
 }
