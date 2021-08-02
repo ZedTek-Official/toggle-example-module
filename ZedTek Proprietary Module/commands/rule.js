@@ -26,7 +26,7 @@ const rulesNotice = new Discord.MessageEmbed()
   .addField('All rules are subject to interpretation.', 'The CEO reserves all right to interpret these rules, and to change them at their own discretion.')
   
 module.exports = {
-  name: 'rules',
+  name: 'ruleslist',
   execute(message) {
     message.channel.send(rule1, rule2, rule3, rule4, rule5, rule6, rule7, rulesNotice)
   }
