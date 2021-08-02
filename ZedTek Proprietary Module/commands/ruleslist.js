@@ -29,5 +29,5 @@ module.exports = {
   name: 'rules',
   execute(message) {
     message.channel.send(rule1, rule2, rule3, rule4, rule5, rule6, rule7, rulesNotice)
-  })
+  }
 }
