@@ -11,7 +11,9 @@ module.exports = {
             message.channel.send('Whoops! You need to specify a person to warn!')
         }
         else {
-            message.mentions.users.first().roles.remove(warn1, warn2, warn3)
+            message.mentions.users.first().roles.remove(warn1)
+            message.mentions.users.first().roles.remove(warn2)
+            message.mentions.users.first().roles.remove(warn3)
         }
     },
 };
