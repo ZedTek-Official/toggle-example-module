@@ -6,6 +6,6 @@
     "config": "https://raw.githubusercontent.com/ZedTek/zedtek-modules/main/Example%20Module/config.json"
   },
   "commands": {
-    "ping": "https://raw.githubusercontent.com/ZedTek/zedtek-modules/main/Example%20Module/ping.js"
+    "ping": { "file": "https://raw.githubusercontent.com/ZedTek/zedtek-modules/main/Example%20Module/ping.js" }
   }
 }
