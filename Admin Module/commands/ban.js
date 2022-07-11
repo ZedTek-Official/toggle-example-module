@@ -1,8 +1,12 @@
+const { SlashCommandBuilder } = require('@discordjs/builders')
+
 module.exports = {
-	name: 'ban',
-	execute(message, args) {
-        const mentionedUser = message.mentions.members.first();
-        message.channel.send(`${mentionedUser} was banned.`);
-        mentionedUser.ban();
+	data: new SlashCommandBuilder()
+        .setName('ban')
+        .setDescription('Bans the specified user from the server'),
+	async execute(interaction) {
+        const mentionedUser = message.mentions.members.first()
+        message.channel.send(`${mentionedUser} was banned.`)
+        mentionedUser.ban()
 	},
-};
+}
