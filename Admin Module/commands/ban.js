@@ -6,7 +6,9 @@ module.exports = {
         .setDescription('Bans the specified user from the server')
         .addUserOption(option => option.setName('user').setDescription('Mention a user to ban')),
 	async execute(interaction) {
-        await interaction.reply({ content: `${interaction.options.getUser('user')} was banned.`, ephemeral: true })
-        //interaction.options.getMentionable('userToBan').ban()
+        if(message.member.permissions.has(Discord.Permissions.FLAGS.ADMINISTRATOR)){
+            await interaction.reply({ content: `${interaction.options.getUser('user')} was banned.`, ephemeral: true })
+            interaction.options.getMentionable('userToBan').ban()
+        }
 	}
 }
